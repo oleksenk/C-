@@ -1,0 +1,107 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace lab6
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int n, m, z, x;
+            Console.WriteLine("1");
+            Console.WriteLine("Введить размер числа");
+            n = int.Parse(Console.ReadLine());
+            int[] a;
+            a = new int[n];
+            for (int i = 0; i < n; ++i)
+            {
+                Console.WriteLine("n[" + i + "] = ");
+                a[i] = int.Parse(Console.ReadLine());
+            }
+            for (int i = n - 1; i >= 0; --i)
+            {
+                Console.Write(a[i] + " ");
+            }
+            Console.WriteLine();
+            Console.WriteLine("2");
+            Console.WriteLine("Введить размер");
+            m = int.Parse(Console.ReadLine());
+            char[] b;
+            b = new char[m];
+            for (int i = 0; i < m; ++i)
+            {
+                Console.WriteLine("n[" + i + "] = ");
+                b[i] = char.Parse(Console.ReadLine());
+            }
+            for (int i = m - 1; i >= 0; --i)
+            {
+                Console.Write(b[i] + " ");
+            }
+            Console.WriteLine();
+            Console.WriteLine("3");
+            Console.WriteLine("Введить размер");
+            z = int.Parse(Console.ReadLine());
+            char[] c;
+            c = new char[z];
+            int d = 0;
+            for (int i = 0; i < z; ++i)
+            {
+                Console.WriteLine("n[" + i + "] = ");
+                c[i] = char.Parse(Console.ReadLine());
+                if (c[i] == '.'){
+                    d = i;
+                }
+            }
+            for (int i = d - 1; i >= 0; --i)
+            {
+                Console.Write(c[i] + " ");
+            }
+            Console.Write(c[d]+" ");
+            for (int i = z - 1; i > d; --i)
+            {
+                Console.Write(c[i] + " ");
+            }
+            Console.WriteLine();
+            Console.WriteLine("4");
+            Console.WriteLine("Введить размер");
+            x = int.Parse(Console.ReadLine());
+            char[] v;
+            v = new char[x];
+            d = 0;
+            for (int i = 0; i < x; ++i)
+            {
+                Console.WriteLine("n[" + i + "] = ");
+                v[i] = char.Parse(Console.ReadLine());
+                if (v[i] == ','){
+                    d = i;
+                }
+            }
+            for (int i = d - 1; i >= 0; --i)
+            {
+                Console.Write(v[i] + " ");
+            }
+            Console.Write(v[d]+" ");
+            for (int i = x - 1; i > d; --i)
+            {
+                Console.Write(v[i] + " ");
+            }
+            Console.ReadLine();
+            Console.WriteLine("7");
+            n1 = int.Parse(Console.ReadLine());
+            int[] a1;
+            a1 = new int[n1];
+            for (int i = 0; i < n; ++i)
+            {
+                Console.WriteLine("n[" + i + "] = ");
+                a[i] = int.Parse(Console.ReadLine());
+            }
+            for (int i = n1 - 1; i >= 0; --i)
+            {
+                Console.Write(a[i] + " ");
+            }
+        }
+    }
+}
