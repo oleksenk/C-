@@ -1,0 +1,52 @@
+using System;
+using System.Collections.Generic;
+
+namespace lab_7_dimass
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Лаб. 6 вар. 8");
+            List<string> listString = new List<string>();
+            bool temp = false;
+            int ii = 0;
+            string tempStr;
+            Console.WriteLine("Для завершения ввода строк введите -1-");
+            while(!temp)
+            {
+                Console.Write($"Введите {ii+1}-ий елемент листа: ");
+                tempStr = Convert.ToString(Console.ReadLine());
+                if (tempStr == "-1-")
+                    break;
+                listString.Add(tempStr);
+                tempStr = "";
+                ii++;
+            }
+
+
+            int count = 0;
+            int maxLeght = 0;
+            for (int i = 0; i < ii; i++)
+            {
+                if (listString[i].Length > maxLeght)
+                    maxLeght = listString[i].Length;
+            }
+            for (int i = 0; i < ii; i++)
+            {
+                if (listString[i].Length == maxLeght)
+                {
+                    count++;
+                    maxLeght--;
+                    break;
+                }
+                    
+            }
+
+            Console.Write("Количество елементов листа которие имеют равную длину: {0}", count);
+
+            Console.ReadLine();
+        }
+
+    }
+}
