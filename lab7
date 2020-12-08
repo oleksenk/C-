@@ -1,13 +1,11 @@
 using System;
 using System.Collections.Generic;
 
-namespace lab_7_dimass
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Лаб. 6 вар. 8");
             List<string> listString = new List<string>();
             bool temp = false;
             int ii = 0;
