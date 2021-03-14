@@ -1,0 +1,10 @@
+C:\Users\Roma\source\repos\kalykulytor\kalykulytor\bin\Debug\kalykulytor.exe.config
+C:\Users\Roma\source\repos\kalykulytor\kalykulytor\bin\Debug\kalykulytor.exe
+C:\Users\Roma\source\repos\kalykulytor\kalykulytor\bin\Debug\kalykulytor.pdb
+C:\Users\Roma\source\repos\kalykulytor\kalykulytor\obj\Debug\kalykulytor.csprojAssemblyReference.cache
+C:\Users\Roma\source\repos\kalykulytor\kalykulytor\obj\Debug\kalykulytor.Form1.resources
+C:\Users\Roma\source\repos\kalykulytor\kalykulytor\obj\Debug\kalykulytor.Properties.Resources.resources
+C:\Users\Roma\source\repos\kalykulytor\kalykulytor\obj\Debug\kalykulytor.csproj.GenerateResource.cache
+C:\Users\Roma\source\repos\kalykulytor\kalykulytor\obj\Debug\kalykulytor.csproj.CoreCompileInputs.cache
+C:\Users\Roma\source\repos\kalykulytor\kalykulytor\obj\Debug\kalykulytor.exe
+C:\Users\Roma\source\repos\kalykulytor\kalykulytor\obj\Debug\kalykulytor.pdb
