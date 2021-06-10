@@ -1,0 +1,10 @@
+C:\Users\Roma\source\repos\Zmeya\Zmeya\bin\Release\Zmeya.exe.config
+C:\Users\Roma\source\repos\Zmeya\Zmeya\bin\Release\Zmeya.exe
+C:\Users\Roma\source\repos\Zmeya\Zmeya\bin\Release\Zmeya.pdb
+C:\Users\Roma\source\repos\Zmeya\Zmeya\obj\Release\Zmeya.csprojAssemblyReference.cache
+C:\Users\Roma\source\repos\Zmeya\Zmeya\obj\Release\Zmeya.Form1.resources
+C:\Users\Roma\source\repos\Zmeya\Zmeya\obj\Release\Zmeya.Properties.Resources.resources
+C:\Users\Roma\source\repos\Zmeya\Zmeya\obj\Release\Zmeya.csproj.GenerateResource.cache
+C:\Users\Roma\source\repos\Zmeya\Zmeya\obj\Release\Zmeya.csproj.CoreCompileInputs.cache
+C:\Users\Roma\source\repos\Zmeya\Zmeya\obj\Release\Zmeya.exe
+C:\Users\Roma\source\repos\Zmeya\Zmeya\obj\Release\Zmeya.pdb
